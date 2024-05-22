@@ -2,3 +2,18 @@ h1 {
     color: red;
     font-size:20px;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-color: tomato;
+}
+
+span {
+    background-color:turquoise;
+}
