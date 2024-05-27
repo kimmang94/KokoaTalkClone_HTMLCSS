@@ -3,16 +3,18 @@
 /*Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 /*Screens*/
 @import "screens/login.css";
-.icon{
-    width: 15px;
-    height: 15px;
-    margin-top: 5px;
-    margin-left: 2px;
-}
 
 body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#batteryIcon{
+    margin: 10px;
+}
+
+#boltIcon{
+    margin: 2px 0px;
+}

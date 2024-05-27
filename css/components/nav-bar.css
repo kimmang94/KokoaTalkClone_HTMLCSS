@@ -30,6 +30,20 @@
     align-items: center;
     color: white;
     position:absolute;
-    left:15px;
+    left:20px;
     bottom: 15px;
+}
+
+.nav__dot{
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:absolute;
+    left:30px;
+    bottom: 30px;
 }
